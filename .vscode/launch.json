@@ -7,9 +7,10 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open index.html",
-            "file": "c:\\Users\\Jeandre\\Documents\\Code\\JS Site\\Rewind\\index.html",
-            "Executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+            "name": "Launch Chrome against local host",
+            "url": "http://127.0.0.1:5500",
+            "webroot": "${workspacefolder}",
+            "runtimeExecutable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
         }
     ]
 }
